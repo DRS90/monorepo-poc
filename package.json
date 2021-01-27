@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "monorepo",
+  "version": "0.0.0-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "pkg1": "yarn workspace @monorepo/package-1 dev",
+    "pkg2": "yarn workspace @monorepo/package-2 dev"
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
