@@ -1,3 +1,4 @@
+// remove the dot in front of the filename
 const { dependencies } = require('./package.json')
 
 const withTM = require('next-transpile-modules')(

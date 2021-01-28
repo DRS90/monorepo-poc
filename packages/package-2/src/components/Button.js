@@ -7,7 +7,7 @@ const Button = () => {
 
 //Button.propTypes = {}
 
-export default Button;
+// export default Button;
 
 module.exports = {
   Button,
