@@ -1,8 +1,12 @@
-import { Button } from "@monorepo/package-2/src/components/Button";
+import * as X from "@monorepo/package-2";
 
 const Home = () => {
-  console.log(Button());
-  return <div>package 1</div>;
+  console.log();
+  return (
+    <div>
+      package 1 <X.default.Button />
+    </div>
+  );
 };
 
 export default Home;
